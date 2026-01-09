@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
+import ProjectShowcase from "@/components/ProjectShowcase";
 
 export default function Home() {
   return (
@@ -8,13 +9,13 @@ export default function Home() {
               <Hero/>
           </div>
           <div id={"projects"}>
-              <Hero/>
+              <ProjectShowcase/>
           </div>
           <div id={"about"}>
               <Hero/>
           </div>
           <div id={"contact"}>
-              <Hero/>
+              <ProjectShowcase/>
           </div>
       </main>
   );
