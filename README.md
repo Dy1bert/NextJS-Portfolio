@@ -1,6 +1,6 @@
 ﻿# 🎮 Dylan Buchanan - Unreal Engine Developer Portfolio
 
-A modern, responsive portfolio website built with **Next.js** to showcase projects, skills, and experience as an **Unreal Engine–based Game Developer**.
+A modern, responsive portfolio website built with **Next.js** to showcase projects, skills, and experience as an **Unreal Engine–based Game Developer** and current **3D Games Design & Development Course Lead** @ **[Software Academy](https://softwareacademy.co.uk)**.
 
 This site highlights game projects, technical expertise, and game trailers using Unreal Engine, with a focus on fun and engaging mechanics.
 
