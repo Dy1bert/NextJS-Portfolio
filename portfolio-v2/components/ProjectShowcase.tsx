@@ -9,12 +9,17 @@ const ProjectShowcase = () => {
                 Project Showcase
             </h1>
 
-            <h2 className="mt-4 text-md text-gray-400 max-w-5xl text-shadow-background-b text-shadow-lg">
+            <h1 className="mt-4 text-md text-gray-400 max-w-5xl text-shadow-background-b text-shadow-lg">
                 See the below highlighted projects!
-            </h2>
-            {ProjectList.map((project, index) => (
-                <ProjectCard/>
-            ))}
+            </h1>
+            <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+                {ProjectList.map((project) => (
+                    <ProjectCard
+                        key={project.ID}
+                        project={project}
+                    />
+                ))}
+            </div>
         </section>
     );
 };

@@ -1,6 +1,7 @@
-import Image from "next/image";
 import Hero from "@/components/Hero";
 import ProjectShowcase from "@/components/ProjectShowcase";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -12,10 +13,10 @@ export default function Home() {
               <ProjectShowcase/>
           </div>
           <div id={"about"}>
-              <Hero/>
+              <About/>
           </div>
           <div id={"contact"}>
-              <ProjectShowcase/>
+              <Contact/>
           </div>
       </main>
   );
