@@ -2,12 +2,14 @@
 
 :root {
   --background-a: #4c4171;
+  --background-a-light: #69618c;
   --background-b: #dfd7bf;
   --foreground: #171717;
 }
 
 @theme inline {
   --color-background-a: var(--background-a);
+  --color-background-a-light: var(--background-a-light);
   --color-background-b: var(--background-b);
   --color-foreground: var(--foreground);
   --font-roboto: var(--font-roboto);
@@ -16,6 +18,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-a: #4c4171;
+    --background-a-light: #69618c;
     --background-b: #434343;
     --foreground: #ededed;
   }
@@ -23,6 +26,7 @@
 
 body {
   background-a: var(--background-a);
+  background-a-light: var(--background-a-light);
   background-b: var(--background-b);
   color: var(--foreground);
   font-family: Roboto, Arial, Helvetica, sans-serif;
