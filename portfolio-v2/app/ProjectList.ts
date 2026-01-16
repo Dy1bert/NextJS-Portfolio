@@ -40,4 +40,12 @@ export const ProjectList: Project[] = [
         LongDescription: "This is another looooooooooooooooooooooooooooooooooooooongggg description",
         ImgSrc: "/TestBG.png",
     },
+    {
+        ID: 4,
+        slug: "test-2",
+        Name: "Test 2",
+        ShortDescription: "This is yet another project description",
+        LongDescription: "This is another looooooooooooooooooooooooooooooooooooooongggg description",
+        ImgSrc: "/TestBG.png",
+    },
 ];

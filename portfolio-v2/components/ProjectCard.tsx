@@ -8,17 +8,17 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
     return (
-        <Link href={`/projects/${project.slug}`}>
-            <div className="w-[100%] h-[75%] rounded-xl bg-background-b p-6 text-white shadow-lg">
-                <div className="contain-content w-full h-[75%]">
+        <Link href={'/projects/' + project.slug}>
+            <div className={"w-full h-full rounded-xl bg-background-b p-6 text-white shadow-lg"}>
+                <div className="relative w-full aspect-[16/9]">
                     <Image
                         src={project.ImgSrc}
                         alt={project.Name}
                         fill
-                        className="rounded-md"
+                        className="rounded-md object-cover"
                     />
                 </div>
-                <div className="mt-[7%] h-auto w-full justify-items-center align-items-bottom text-center">
+                <div className="mt-4 text-center">
                     <h1 className="text-xl font-semibold text-shadow-background-a text-shadow-lg md:text-2xl">
                         {project.Name}
                     </h1>
